@@ -4,7 +4,6 @@ import br.com.metrocamp.simgraduate.course.model.Course;
 import br.com.metrocamp.simgraduate.topic.model.Topic;
 import br.com.metrocamp.simgraduate.utils.base.model.BaseModel;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.persistence.Column;
