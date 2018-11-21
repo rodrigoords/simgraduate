@@ -2,3 +2,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+external-services:
+  cep:
+    via-cep-url: https://viacep.com.br/ws/{cep}/json
+  scheduler:
+    allan: https://chatbot-c8049.firebaseio.com/Evento.json
