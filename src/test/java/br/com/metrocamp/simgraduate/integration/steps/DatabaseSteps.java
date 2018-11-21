@@ -267,6 +267,7 @@ public class DatabaseSteps {
   @Before
   public void cleanDb() throws SQLException, ClassNotFoundException {
     this.resetAllH2Sequences();
+    this.resetTable("simulations");
   }
 
 }
